@@ -1,0 +1,76 @@
+.midccont {
+    font-size: 100px;
+    /* margin: auto; */
+    color: #fff;
+}
+
+.msgbox {
+    order: 0;
+    height: 200px;
+    width: 150px;
+    align-items: center;
+    position: absolute;
+}
+
+.msgbox.left {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 350px;
+    text-align: right;
+}
+
+.msgbox.right {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 350px;
+    text-align: left;
+}
+
+.msgboxp{
+    overflow-wrap: break-word;
+}
+
+.msgboxhp {
+    color: #FFC72C ;
+    font-weight: 800;
+    font-size: large;
+}
+
+.msgboxp {
+    color: #A9A9A9;
+}
+
+.yearboxright{
+    font-size: 40px;
+    font-weight:700;
+    color: #A9A9A9;
+    position: absolute;
+    right: 300px;
+}
+
+.yearboxleft {
+    font-size: 40px;
+    font-weight:700;
+    color: #A9A9A9;
+    position: absolute;
+    left: 300px;  
+}
+
+.verticalp{
+    font-size: 40px;
+    font-weight:700;
+    color: #A9A9A9;
+    position: absolute;
+    left: 10px;
+    top: 140px;  
+    transform: rotate(-90deg);
+}
+.verticalpright{
+    font-size: 40px;
+    font-weight:700;
+    color: #A9A9A9;
+    position: absolute;
+    right: 10px;
+    top: 140px;  
+    transform: rotate(-90deg);
+}
